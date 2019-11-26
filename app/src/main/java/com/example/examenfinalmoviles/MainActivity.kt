@@ -7,15 +7,12 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.gson.JsonArray
-import com.google.gson.JsonObject
 import kotlinx.android.synthetic.main.activity_main.*
-import sun.jvm.hotspot.utilities.IntArray
 
 
 class MainActivity : AppCompatActivity() {
 
-    val db = FirebaseFirestore.getInstance()
+    private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +35,6 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this,"Listen failed.",Toast.LENGTH_LONG).show()
                     return@addSnapshotListener
                 }
-
                 val coll = ArrayList<String>()
                 for (doc in value!!) {
                     coll.add(doc.toString())
