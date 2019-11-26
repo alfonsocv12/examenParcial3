@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "93057287628",
+    "firebase_url": "https://exemenromo.firebaseio.com",
+    "project_id": "exemenromo",
+    "storage_bucket": "exemenromo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93057287628:android:af8d6719b9120199308969",
+        "android_client_info": {
+          "package_name": "com.example.examenfinalmoviles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93057287628-l58eechs3vu6f9m76j46oehlririif1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examenfinalmoviles",
+            "certificate_hash": "f4ffcc1e6d8222c817dd74769b7d184ad0434770"
+          }
+        },
+        {
+          "client_id": "93057287628-tfrq5tdifjaur7qbvl71j1bp3jn6jl22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA76X1yVfhlG8mxrwMy63dAU5NIh8PEBMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93057287628-tfrq5tdifjaur7qbvl71j1bp3jn6jl22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
